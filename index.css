@@ -1,0 +1,321 @@
+/*Background Styling*/
+body {
+	background-image: url('starsky.jpg');
+	/*background-color: #000080; For Demonstartion */
+	color: white;
+}
+
+/***********************************************************************
+ *  ***Top Navigation Menu Styling***
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.5em;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width:100%;
+}
+.menu-list {
+    margin-left: auto;
+}
+.nav-menu {
+    cursor:pointer;
+    color:#FFF;
+    font-size:3em;
+    border-radius:2px;
+    transition: all 0.3s linear;
+}
+
+.main-nav{
+    background-color:#000;
+}
+
+.nav-menu .main-nav .menu-list:not(.btn) i.fa{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    width: 21px;
+    padding-right: 100px;
+}
+
+.topmenugreeting {
+
+    font-family:Tangerine, serif, Times New Roman, Times, serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #000;
+    transition: all 5s;
+    color: magenta;
+    text-align: center;
+    background-color: black;
+    padding-top: 70px;
+}
+
+/***********************************************************************
+ *  ***Top Column Styling***
+ **********************************************************************/
+
+.toprow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topcolumn1 {
+  float: left;
+  background-image: url('quran.gif');
+  background-repeat: no-repeat;
+}
+
+.topcolumn2{
+  float: left;
+  width: 60%;
+  height: 300px; 
+  padding-left: 25px;
+}
+
+.p1 {
+  
+  text-align: center;
+  max-width:100%
+}
+
+.p2 {
+  padding-top: 10px;
+}
+
+.toprow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.welcometext{
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  text-shadow: 4px 4px 8px #FF0000;
+  font-style: italic;
+
+}
+
+/***********************************************************************
+ *  *** Mid Column Styling ***
+ **********************************************************************/
+
+ .midcolumn {
+
+ 	padding-top: 15px;
+
+}
+
+/***********************************************************************
+ *  *** Middle Column Styling ***
+ **********************************************************************/
+
+.middlerow {
+  display: flex;
+}
+
+.middlecolumn1 {
+  flex: 50%;
+  background-image: url('jinn.jpg');
+
+}
+
+
+.middlecolumn2 {
+  flex: 50%;
+ 
+}
+
+.middlecolumn2h6 {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family:'Monaco';
+  text-align: center;
+  background-color: black;
+  text-shadow: 4px 4px 8px magenta;
+}
+
+/***********************************************************************
+ *  *** Middle Column Contact Form Styling ***
+ **********************************************************************/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#phone {
+	width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#email {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 2.5px;
+  padding: 10px;
+}
+
+#jinn1img {
+	height: 605px;
+	background-repeat: no-repeat;
+	width: 70
+}
+
+.container6 {
+  border-radius: 2.5px;
+  padding: 10px;
+}
+
+
+
+
+.row6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#column6 {
+  flex: 50%;
+  padding-top: 15px;
+
+}
+
+#column7 {
+  flex: 50%;
+  padding-top: 15px;
+}
+
+/***********************************************************************
+ *  *** Bottom Column and Footer Styling ***
+ **********************************************************************/
+
+/* Fake image */
+.sheikhimg {
+  width: 100%;
+  padding: 20px;
+}
+
+.tadembo {
+	margin-left: 15%;
+	width: 30%;
+	height: 80%;
+}
+.name{
+	font-size: 50px;
+}
+
+.footer {
+  padding: 5px;
+  background-color: black;
+  padding-top: 4px;
+  padding-bottom: 10px;
+
+}
+
+.main-nav1 {
+display: flex;
+list-style: none;
+margin: 0;
+font-size: 0.5em;
+cursor:pointer;
+color:#FFF;
+font-size:3em;
+border-radius:2px;
+transition: all 0.3s linear;
+font-size: 18px;
+position: relative;
+top: 3px;
+text-align: center;
+width: 21px;
+}
+
+.icons {
+  margin-right: auto;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding-top: 3px;
+  }
+
+.icons:hover {
+  opacity: 0.7;
+}
+
+.attribution
+{
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.fp {
+
+	border-radius: 5px;
+	float: right;
+	padding: 70px;
+}
+.fh2 {
+	font-size: 40px;
+	font-family: sans-serif, arial;
+}
